@@ -1,0 +1,67 @@
+.App {
+  margin: auto;
+  width: 600px;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  align-content: center; 
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}
+
+input {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+form button {
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  font-weight: 600;
+
+}
+
+.workouts {
+  margin-top: 50px;
+}
+
+.workouts-headers {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.workouts-data {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.workouts-data li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workouts-data button {
+  background: none;
+  border: none;
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
